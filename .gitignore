@@ -1,0 +1,48 @@
+# ===============================
+# 🔐 Python Virtual Environment
+# ===============================
+venv/
+.env
+*.env
+
+# ===============================
+# 🐍 Python Cache / Compiled Files
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===============================
+# 🗄️ Local SQLite Databases (Do NOT commit)
+# ===============================
+backend/*.db
+*.db
+*.db-journal
+*.sqlite3
+
+# ===============================
+# 📦 Build / Distribution
+# ===============================
+dist/
+build/
+
+# ===============================
+# 🖼️ Generated Images/Graphs (Auto-generated)
+# ===============================
+backend/static/images/
+
+# ===============================
+# 🧠 Logs & Cache
+# ===============================
+*.log
+logs/
+cache/
+
+# ===============================
+# 🧰 Editor/OS Stuff
+# ===============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
